@@ -73,21 +73,37 @@ a {
     place-items: center;
 }
 
-.about .chef{
+
+
+
+.swiper {
+    width: 95%;
+    height: 400px;
+  }
+
+swiper-container {
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+swiper-slide {
+   background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 100px;
+    align-items: center;
+  }
+
+
+  swiper-slide .chef{
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
-.about .chef img{
+swiper-slide .chef img{
     border-radius: 50%;
     max-width: 20rem;
 }
-
-
-
-
-
-
-
